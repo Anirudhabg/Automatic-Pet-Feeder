@@ -12,11 +12,13 @@ This project utilizes an Arduino Uno microcontroller along with a servo motor an
 
 ## Setup:
 
-1. Connect the servo motor and IR sensor to the Arduino Uno.
-2. Upload the provided Arduino sketch (`app.ino`) to the Arduino Uno.
-3. Adjust the feeding duration and schedule in the code if necessary.
-4. Assemble the feeder and position it in a suitable location.
-5. Test the feeder by approaching it with a pet or any object that can trigger the IR sensor.
+1. Connect the servo motor signal pin to digital pin 9 of Arduino Uno.
+2. Connect the IR sensor signal pin to digital pin 2 of Arduino Uno.
+3. Connect the VCC to 5v and GND to GND of Arduino Uno.
+4. Upload the provided Arduino sketch (`app.ino`) to the Arduino Uno.
+5. Adjust the feeding duration and schedule in the code if necessary.
+6. Assemble the feeder and position it in a suitable location.
+7. Test the feeder by approaching it with a pet or any object that can trigger the IR sensor.
 
 ## Usage:
 
